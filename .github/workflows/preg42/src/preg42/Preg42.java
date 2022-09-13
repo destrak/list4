@@ -50,7 +50,9 @@ class Deposito{
         if(n.size() ==0){
             return null;
         }
+        else{
         return n.remove(0);
+    }
     }
 }
 class Sprite extends Bebida{
@@ -59,7 +61,7 @@ super(a);
 }
 public String beber(){
     
-return beber()+"sprite";
+return super.beber()+"sprite";
 }
 }
 class Fanta extends Bebida{
@@ -68,7 +70,7 @@ super(b);
 }
 public String beber(){
     
-return beber()+"fanta";
+return super.beber()+"fanta";
 }
 }
 class Kem extends Bebida{
@@ -77,7 +79,7 @@ super(a);
 }
 public String beber(){
     
-return beber()+"kem";
+return super.beber()+"kem";
 }
 }
 class CocaCola extends Bebida{
@@ -86,6 +88,6 @@ super(a);
 }
 public String beber(){
     
-return beber()+"cocacola";
+return super.beber()+"cocacola";
 }
 }
